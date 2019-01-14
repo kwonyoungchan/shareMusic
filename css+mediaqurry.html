@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My web</title>
+    <h1 style= "font-size:40px">Hi world~~~</h1>
+    <style>
+      h1{
+        text-align: center;
+        border-bottom: 5px lightpink solid;
+        margin:0;
+        padding: 10px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      ol{
+        border-right: 5px lightpink solid;
+        margin:0;
+        padding-top:20px;
+      }
+      #article{
+        padding-left: 15px;
+
+
+      }
+      @media(max-width:800px) {
+
+        #grid{
+
+          display: block;}
+          ol{
+            border-right: none;}
+            h1{
+              border-bottom: none;}
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+   <div id="grid">
+    <ol style= "font-size:20px">
+      <li> <a href= "music.html" target= "">music</a></li>
+      <li> <a href= "study.html" target= "">study</a></li>
+      <li> <a href= "game.html" target= "">game</a></li>
+    </ol>
+    <div id="article">
+      <h2>설명</h2>
+      <p>
+
+       여기는 저의 웹입니다. 이곳에서는 저의 노래, 공부, 게임 종류들이 나열되어 있으니 한법 구경하고 기세요~~~~~~
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      </p>
+
+    </div>
+   </div>
+  </body>
+</html>
